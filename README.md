@@ -40,3 +40,8 @@ Construire un modèle de classification d’images performant sur le jeu de donn
 
 - Matrice de confusion incluse
 - Interprétation des erreurs fréquentes (ex. chat vs chien)
+
+  ## 🧠 Pistes d’amélioration
+- Ajouter des visualisations sur les plus grosses erreurs de predictions
+- Ajouter des l'interprétation sur les résultats
+- Revoir le transfer learning parce que les résultats sont vraiment pas a la hauteur
