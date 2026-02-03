@@ -1,0 +1,9 @@
+tensorflow
+tensorflow_datasets
+numpy
+matplotlib
+pandas
+random
+os
+sklearn
+itertools
