@@ -52,7 +52,7 @@ Python · TensorFlow/Keras · CNN · VGG19 · Transfer Learning · Mixed Precisi
 ### VGG19 — Fine-Tuning Curves
 
 <img width="547" height="435" alt="loss_vgg" src="assets/vgg_loss.png" />
-<img width="547" height="435" alt="acc_vgg" src="assets/vgg_acc.png" />
+<img width="547" height="435" alt="acc_vgg" src="assets/vgg_accuracy.png" />
 
 ### Confusion Matrix
 
