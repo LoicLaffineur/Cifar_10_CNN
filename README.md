@@ -46,18 +46,18 @@ Python · TensorFlow/Keras · CNN · VGG19 · Transfer Learning · Mixed Precisi
 
 ### Custom CNN — Training Curves
 
-<img width="547" height="435" alt="curves_loss" src="assets/cnn_loss" />
-<img width="547" height="435" alt="curves_acc" src="assets/cnn_acc" />
+<img width="547" height="435" alt="curves_loss" src="assets/cnn_loss.png" />
+<img width="547" height="435" alt="curves_acc" src="assets/cnn_acc.png" />
 
 ### VGG19 — Fine-Tuning Curves
 
-<img width="547" height="435" alt="loss_vgg" src="assets/vgg_loss" />
-<img width="547" height="435" alt="acc_vgg" src="assets/vgg_acc" />
+<img width="547" height="435" alt="loss_vgg" src="assets/vgg_loss.png" />
+<img width="547" height="435" alt="acc_vgg" src="assets/vgg_acc.png" />
 
 ### Confusion Matrix
 
-<img width="736" height="699" alt="cm" src="assets/cnn_confusion_matrix" />
+<img width="736" height="699" alt="cm" src="assets/cnn_confusion_matrix.png" />
 
 ### Misclassified Samples
 
-<img width="794" height="311" alt="miss" src="assets/cnn_missclassified" />
+<img width="794" height="311" alt="miss" src="assets/cnn_missclassified.png" />
