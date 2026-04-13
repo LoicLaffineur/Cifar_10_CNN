@@ -47,7 +47,7 @@ Python · TensorFlow/Keras · CNN · VGG19 · Transfer Learning · Mixed Precisi
 ### Custom CNN — Training Curves
 
 <img width="547" height="435" alt="curves_loss" src="assets/cnn_loss.png" />
-<img width="547" height="435" alt="curves_acc" src="assets/cnn_acc.png" />
+<img width="547" height="435" alt="curves_acc" src="assets/cnn_accuracy.png" />
 
 ### VGG19 — Fine-Tuning Curves
 
