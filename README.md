@@ -1,48 +1,66 @@
-# Image Classification with Custom CNN & Transfer Learning (CIFAR-10)
+# Image Classification Pipeline (Deep Learning)
 
-## Business Problem
+Automate image sorting and classification using deep learning.
 
-Retail, e-commerce, and logistics companies rely on accurate product image classification.
-Manual sorting is slow, error-prone, and difficult to scale as catalogs grow.
+## The Problem
 
-How can we automate image classification with a reliable, efficient, and scalable deep learning pipeline?
+Companies dealing with large image volumes (e-commerce, retail, logistics) struggle to:
 
-## Proposed Solution
+- Manually classify products or items  
+- Maintain consistent labeling  
+- Scale operations efficiently  
 
-End-to-end Computer Vision pipeline using CIFAR-10 to benchmark two approaches:
+This leads to time loss, errors, and operational bottlenecks.
 
-- A **custom CNN** optimized through systematic ablation studies
-- **Transfer Learning with VGG19**, fine-tuned on the dataset
+## The Approach
 
-**Key steps:**
+This project demonstrates an end-to-end image classification pipeline using deep learning.
 
-- Data preprocessing and augmentation
-- Architecture search via ablation (depth, filters, activation, regularization)
-- Final training with Dropout, Weight Decay, EarlyStopping, ReduceLROnPlateau, Mixed Precision
-- VGG19 benchmark (frozen → fine-tuned)
-- Evaluation: accuracy curves, confusion matrix, misclassified samples
+Two approaches are explored:
+
+- A custom-built CNN optimized for performance  
+- A transfer learning approach (VGG19)  
+
+The goal is to build a reliable and scalable model for automated image classification.
 
 ## Results
 
-| Model | Accuracy | Notes |
-|-------|----------|-------|
-| Custom CNN (optimized) | **~87%** | Ablation-tuned architecture |
-| VGG19 fine-tuned | ~75% | Transfer learning benchmark |
+- Custom CNN: ~87% accuracy  
+- Transfer Learning (VGG19): ~75% accuracy  
 
-**Key insight:** a well-optimized custom CNN outperforms VGG19 fine-tuning on CIFAR-10 — demonstrating that transfer learning is not always the best solution, and that systematic ablation pays off.
+Key takeaway:  
+A well-optimized model tailored to the data can outperform standard pre-trained models.
 
-## Technologies
+## How This Can Be Used in a Company
 
-Python · TensorFlow/Keras · CNN · VGG19 · Transfer Learning · Mixed Precision · Data Augmentation · Matplotlib · Seaborn
+This type of model can be used to:
+
+- Automatically classify product images in a catalog  
+- Detect and organize inventory items  
+- Support quality control processes  
+- Tag and structure large image datasets  
+
+Example:  
+An e-commerce company can automatically assign categories to new products instead of doing it manually.
 
 ## Business Impact
 
-- Reduced operational workload through automated image classification
-- Lower error rates compared to manual sorting
-- Scalable pipeline adaptable to new product categories or larger datasets
-- Strong foundation for deployment (API, batch scoring, real-time inference)
+- Reduce manual workload  
+- Improve classification consistency  
+- Scale operations with growing data volumes  
+- Enable automation of image-based workflows
 
-## Model Results
+## Technologies
+
+- Python 
+- TensorFlow/Keras
+- CNN
+- Transfer Learning (VGG19)
+- Data Augmentation
+
+## Model Performance
+
+Training performance, model evaluation, and error analysis:
 
 ### Custom CNN — Training Curves
 
@@ -61,3 +79,15 @@ Python · TensorFlow/Keras · CNN · VGG19 · Transfer Learning · Mixed Precisi
 ### Misclassified Samples
 
 <img width="794" height="311" alt="miss" src="assets/cnn_missclassified.png" />
+
+## Work With Me
+
+I help companies build and deploy AI models for image-based tasks.
+
+I can help you:
+- Automate image classification workflows  
+- Build custom computer vision models  
+- Improve existing models and performance  
+- Prepare models for production (API, batch processing)  
+
+Available for freelance projects.
