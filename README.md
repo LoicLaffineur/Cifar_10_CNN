@@ -50,7 +50,7 @@ An e-commerce company can automatically assign categories to new products instea
 - Scale operations with growing data volumes  
 - Enable automation of image-based workflows
 
-## Technologies
+## Tech Stack
 
 - Python 
 - TensorFlow/Keras
